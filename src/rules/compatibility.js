@@ -1,3 +1,3 @@
 export default {
-	"compat/compat": 2
+	'compat/compat': 2
 };
