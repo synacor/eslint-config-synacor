@@ -36,13 +36,14 @@ export default {
 		element: true,
 		sleep: true,
 		by: true,
-		'$': true
+		$: true
 	},
-	"settings": {
+	settings: {
 		//Target the last two versions of the major browsers (except for Opera and IE Mobile), and IE9+
-		"targets": ["last 2 versions", "ie >= 9", "not Opera > 0", "not ExplorerMobile > 0"],
-    "polyfills": ["fetch"] //tell eslint-plugin-compat what we polyfill so it doesn't complain about browser incompatibility
-  },
+		targets: ['last 2 versions', 'ie >= 9', 'not Opera > 0', 'not ExplorerMobile > 0'],
+		//tell eslint-plugin-compat what we polyfill so it doesn't complain about browser incompatibility:
+		polyfills: ['fetch']
+	},
 	rules: {
 		...compatibility,
 		...react,
