@@ -2,6 +2,8 @@
 
 Standard eslint rules for all Synacor javascript projects
 
+[![npm](https://img.shields.io/npm/v/eslint-config-synacor.svg)](http://npm.im/eslint-config-synacor)
+
 # Use these rules in your project
 
 ## Installation
