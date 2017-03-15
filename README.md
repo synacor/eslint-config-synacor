@@ -37,8 +37,8 @@ There are a set of overrides/rules for directories that contain unit tests.  The
 ````
 
 # Developing
-All rule definition files are in `/src/rules`.  Edit/create rule files there.  
+All rule definition files are in [`src/rules`](src/rules).  Edit/create rule files there.  
 
-Rules that are meant to be used for an entire project should go in files that are included by `/src/index.js`.  
+Rules that are meant to be used for an entire project should go in files that are included by [`src/index.js`](src/index.js).  
 
-Rules that are only meant to be run/overriden in test directories of a project should be included by `/src/test-rules.js`.
+Rules that are only meant to be run/overriden in test directories of a project should be included by [`src/test-rules.js`](src/test-rules.js).
