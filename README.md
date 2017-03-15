@@ -1,10 +1,9 @@
 # eslint-config-synacor
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/synacor/eslint-config-synacor.svg)](https://greenkeeper.io/)
+[![npm](https://img.shields.io/npm/v/eslint-config-synacor.svg)](http://npm.im/eslint-config-synacor)
+![Greenkeeper badge](https://badges.greenkeeper.io/synacor/eslint-config-synacor.svg)
 
 Standard eslint rules for all Synacor javascript projects
-
-[![npm](https://img.shields.io/npm/v/eslint-config-synacor.svg)](http://npm.im/eslint-config-synacor)
 
 # Use these rules in your project
 
