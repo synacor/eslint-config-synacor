@@ -1,6 +1,7 @@
 # eslint-config-synacor
 
 [![npm](https://img.shields.io/npm/v/eslint-config-synacor.svg)](http://npm.im/eslint-config-synacor)
+[![Build Status](https://travis-ci.org/synacor/eslint-config-synacor.svg?branch=master)](https://travis-ci.org/synacor/eslint-config-synacor)
 ![Greenkeeper badge](https://badges.greenkeeper.io/synacor/eslint-config-synacor.svg)
 
 Standard eslint rules for all Synacor javascript projects
