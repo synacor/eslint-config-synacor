@@ -35,7 +35,7 @@ export default {
 		],
 		groups: {
 			properties: [
-				'state',
+				'state'
 			],
 			rendering: [
 				'/^render.+$/',
@@ -43,5 +43,5 @@ export default {
 			]
 		}
 
-	}],
+	}]
 };
