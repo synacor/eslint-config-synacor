@@ -6,7 +6,6 @@ import style from './rules/style';
 export default {
 	parser: require.resolve('babel-eslint'),
 	extends: 'eslint:recommended',
-	sourceType: 'module',
 	plugins: [
 		'compat',
 		'react',
@@ -20,6 +19,7 @@ export default {
 	},
 	parserOptions: {
 		ecmaVersion: 7,
+		sourceType: 'module',
 		ecmaFeatures: {
 			modules: true,
 			impliedStrict: true,
