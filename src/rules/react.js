@@ -20,7 +20,7 @@ export default {
 	'react/no-did-update-set-state': 2,
 	'react/no-find-dom-node': 2,
 	'react/no-is-mounted': 2,
-	'react/no-string-refs': 2,
+	'react/no-string-refs': 0, // disabled for now because it does not work with linkref
 	'react/prefer-es6-class': 2,
 	'react/prefer-stateless-function': 1,
 	'react/require-render-return': 2,
