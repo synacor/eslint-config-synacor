@@ -24,7 +24,8 @@ export default {
 			modules: true,
 			impliedStrict: true,
 			experimentalObjectRestSpread: true,
-			jsx: true
+			experimentalDecorators: true,
+  			jsx: true
 		}
 	},
 	globals: {
