@@ -43,7 +43,7 @@ export default {
 		//Target the last two versions of the major browsers (except for Opera and IE Mobile), and IE9+
 		targets: ['last 2 versions', 'ie >= 9', 'not Opera > 0', 'not ExplorerMobile > 0'],
 		//tell eslint-plugin-compat what we polyfill so it doesn't complain about browser incompatibility:
-		polyfills: ['fetch']
+		polyfills: ['fetch', 'promises']
 	},
 	rules: {
 		...compatibility,
