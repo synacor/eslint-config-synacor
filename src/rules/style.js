@@ -42,6 +42,7 @@ export default {
 	'no-new-wrappers': 2,
 	'no-proto': 2,
 	'no-redeclare': 2,
+	'no-restricted-globals': [2, ['find', 'Text']],
 	'no-shadow-restricted-names': 2,
 	'no-shadow': 0,
 	'no-spaced-func': 2,
