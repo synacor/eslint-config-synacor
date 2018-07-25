@@ -3,6 +3,7 @@
 [![npm](https://img.shields.io/npm/v/eslint-config-synacor.svg)](http://npm.im/eslint-config-synacor)
 [![Build Status](https://travis-ci.org/synacor/eslint-config-synacor.svg?branch=master)](https://travis-ci.org/synacor/eslint-config-synacor)
 ![Greenkeeper badge](https://badges.greenkeeper.io/synacor/eslint-config-synacor.svg)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fsynacor%2Feslint-config-synacor.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fsynacor%2Feslint-config-synacor?ref=badge_shield)
 
 Standard eslint rules for all Synacor javascript projects
 
@@ -46,3 +47,7 @@ All rule definition files are in [`src/rules`](src/rules).  Edit/create rule fil
 Rules that are meant to be used for an entire project should go in files that are included by [`src/index.js`](src/index.js).  
 
 Rules that are only meant to be run/overriden in test directories of a project should be included by [`src/test-rules.js`](src/test-rules.js).
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fsynacor%2Feslint-config-synacor.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fsynacor%2Feslint-config-synacor?ref=badge_large)
