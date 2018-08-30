@@ -23,7 +23,8 @@ export default {
 			impliedStrict: true,
 			experimentalObjectRestSpread: true,
 			experimentalDecorators: true,
-			jsx: true
+			jsx: true,
+			legacyDecorators: true
 		}
 	},
 	globals: {
