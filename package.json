@@ -40,7 +40,7 @@
     "url": "https://github.com/synacor/eslint-config-synacor.git"
   },
   "dependencies": {
-    "babel-eslint": "^9.0.0",
+    "babel-eslint": "^10.0.0",
     "eslint-plugin-mocha": "^5.2.0",
     "eslint-plugin-react": "^7.11.1"
   },
