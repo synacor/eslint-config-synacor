@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-synacor",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "ESLint configuration for Synacor javascript projects",
   "main": "index.js",
   "module": "src/index.js",
@@ -20,7 +20,7 @@
     "clean": "rm -f index.js test-rules.js",
     "buildMain": "rollup -c rollup.config.js -f cjs -o $npm_package_main $npm_package_module",
     "buildTestRules": "rollup -c rollup.config.js -f cjs -o test-rules.js src/test-rules.js",
-    "prepublishOnly": "npm run -s test && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags",
+    "prepublishOnly": "npm run -s test && npm run -s build && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags",
     "release": "npm publish",
     "release-beta": "npm publish --tag beta"
   },
