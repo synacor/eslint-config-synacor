@@ -42,5 +42,10 @@ export default {
 		...react,
 		...security,
 		...style
+	},
+	settings: {
+		react: {
+			version: '15'
+		}
 	}
 };
