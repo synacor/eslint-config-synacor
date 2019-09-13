@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-synacor",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "description": "ESLint configuration for Synacor javascript projects",
   "main": "index.js",
   "module": "src/index.js",
