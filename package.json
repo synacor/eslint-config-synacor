@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint-plugin-mocha": "^6.3.0",
+    "eslint-plugin-mocha": "^7.0.1",
     "eslint-plugin-react": "^7.19.0"
   },
   "devDependencies": {
